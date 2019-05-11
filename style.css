@@ -1,0 +1,163 @@
+body{
+    margin: 0 auto;
+  }
+  div.checkboard{
+    position: relative;
+    margin: 0 auto;
+    height: 1000px;
+    width: 1000px;
+    border: 10px solid #000000;
+  }
+  .letters{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 100px;
+    font-size: 50px;
+    left: 125px;
+  }
+  
+  .letter{
+    margin-right: 80px;
+  }
+  .letters-bottom{
+     position: absolute;
+     margin-top: 0;
+     margin-bottom: 0;
+     line-height: 100px;
+     font-size: 50px;
+     left: 125px;
+     bottom: 0;
+   }
+  .letter-bottom{
+    margin-right: 80px;
+  }
+  .numers{
+    position: absolute;
+    line-height: 100px;
+    display: block;
+    left: 25px;
+    margin-top: 110px;
+  }
+  span.numer{
+    position: absolute;
+    font-size: 50px;
+  }
+  .numers-left{
+     position: absolute;
+     line-height: 100px;
+     display: block;
+     right: 50px;
+     margin-top: 110px;
+   }
+  span.numer-left{
+    position: absolute;
+    font-size: 50px;
+  }
+  div.positions{
+    position: relative;
+    margin: 100px auto;
+    border: 10px solid #000000;
+    min-height: 80%;
+    width: 80%;
+  
+  }
+  .black{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    margin: 0;
+  }
+  .eight{
+    top: 0;
+  }
+  .seven{
+    top: 100px;
+  }
+  .six{
+    top: 200px;
+  }
+  .five{
+    top: 300px;
+  }
+  .four{
+    top: 400px;
+  }
+  .three{
+    top: 500px;
+  }
+  .two{
+    top: 600px;
+  }
+  .one{
+    top: 700px;
+  }
+  .a{
+    left: 0;
+  }
+  .b{
+    left: 100px;
+  }
+  .c{
+    left: 200px;
+  }
+  .d{
+    left: 300px;
+  }
+  .e{
+    left: 400px;
+  }
+  .f{
+    left: 500px;
+  }
+  .g{
+    left: 600px;
+  }
+  .h{
+    left: 700px;
+  }
+  .checker{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    vertical-align: center;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.79);
+  }
+  .white{
+    background-color: white;
+    border: 2px solid black;
+  }
+  .red{
+    background-color: red;
+    border: 2px solid black;
+  }
+  .little{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    vertical-align: center;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 20px rgba(24, 24, 24, 0.71);
+  }
+  .top{
+    background-color: #ffffff;
+    border: 2px solid black;
+  }
+  .bottom{
+    background-color: red;
+    border: 2px solid black;
+  }
